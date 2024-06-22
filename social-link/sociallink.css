@@ -73,6 +73,14 @@
 .attribution a {
   color: #c7c7c7;
 }
+@media (max-width: 1088px) {
+  .attribution {
+    display: block;
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+}
 
 @media (max-width: 467px) {
   .container {
