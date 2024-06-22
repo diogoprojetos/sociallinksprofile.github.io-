@@ -1,0 +1,81 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #1f1f1f;
+  max-width: 1200px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 60px;
+  border-radius: 8px;
+}
+
+.social-profile h2 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.social-profile span {
+  color: #b2cf40;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.social-profile p {
+  color: #c4c4c4;
+  font-size: 14px;
+  margin-bottom: 22px;
+  display: block;
+}
+
+.social-links li a {
+  display: block;
+  margin-bottom: 20px;
+  padding: 16px 120px;
+  border-radius: 5px;
+  background-color: #333333;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.social-links ul {
+  display: block;
+}
+
+.social-links a:hover {
+  background-color: #b2cf40;
+  color: #293300;
+}
+
+.social-profile img {
+  width: 90px;
+  border-radius: 48px;
+  margin-bottom: 22px;
+  margin-top: 40px;
+}
+
+@media (max-width: 467px) {
+  .container {
+    width: 300px;
+    height: 560px;
+  }
+  .social-profile h2 {
+    font-size: 22px;
+    margin-bottom: 6px;
+  }
+  .social-profile p {
+    white-space: nowrap;
+    font-size: 12px;
+  }
+  .social-links li a {
+    white-space: nowrap;
+    padding: 12px 80px;
+    margin-bottom: 15spx;
+  }
+}
