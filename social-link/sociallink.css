@@ -60,6 +60,20 @@
   margin-top: 40px;
 }
 
+.attribution {
+  font-size: 10px;
+  color: #616161;
+  text-align: center;
+  padding: 4px 0px;
+  position: absolute;
+  top: 600px;
+  left: 40px;
+}
+
+.attribution a {
+  color: #c7c7c7;
+}
+
 @media (max-width: 467px) {
   .container {
     width: 300px;
